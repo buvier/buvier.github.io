@@ -1,0 +1,208 @@
+/* Здесь будут храниться стили нашего сайта */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 18px;
+}
+img{
+    max-width: 100%;
+}
+a.btn{
+    display: inline-block;
+    text-decoration: none;
+}
+header{
+    background-color: #3a7dfd;
+    background-image: linear-gradient (-147deg, #3a7dfd 0%, #1157db 100%);
+    background-image: -o-linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
+    color: #fff;
+    /*padding-top: 54px;*/
+    padding-bottom: 17px;
+}
+header div.row{
+    padding-top: 54px;
+}
+.col-lg-5 p{
+    padding-left: 1px;
+}
+.pretitle{
+    margin-top: 100px;
+}
+
+.col-lg-5 h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 21px;
+    line-height: 37px;
+}
+.main_description{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+div.button{
+    max-width: 202px;
+    text-align: center;
+    margin-top: 32px;
+}
+div.button a.btn{
+    width: 202px;
+    height: 52px;
+    line-height: 50px;
+    box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #072b6f;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+}
+div.button a.btn:hover{
+    background-color: rgb(21, 160, 224);
+    transition: all 0.2s;
+}
+div small{
+    display: block;
+    font-style: 12px;
+    margin-top: 8px;
+}
+section.portfolio{
+    margin: 0;
+    background-color: #dddddd;
+    padding-top: 42px;
+    padding-bottom: 69px;
+}
+div.gallery{
+    background-color: #ffffff;
+    padding: 32px 50px;
+}
+div.gallery h2, div.gallery h3{
+    text-align: center;
+}
+div.gallery h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    color: #072b6f;
+    /*margin-top: 30px;*/
+    margin-bottom: 10px;
+}
+div.gallery h3{
+    color: #7bb9ff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+div.portfolio_sell{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 29px;
+}
+div.portfolio_sell h3{
+    color: #072b6f;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+div.portfolio_sell p{
+    color: #8f8f8f;
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+div.portfolio_sell a{
+    color: #072b6f;
+    margin-top: 19px;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    background-color: #3a7dfd;
+    color: #deedfe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+footer div.col-lg-4{
+    text-align: center;
+}
+footer div.col-lg-4:first-child{
+    text-align: left;
+}
+div.col-lg-4 h2{
+    color: #fefefe;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+div.col-lg-4 p{
+    margin-left: 1px;
+    margin-top: 7px;
+}
+div.col-lg-4:nth-child(2) p{
+    margin-top: 61px;
+}
+div.col-lg-4:nth-child(2) a{
+    margin: 21px 13px;
+}
+div.col-lg-4:nth-child(3) p{
+    margin-top: 61px;
+    margin-bottom: 0px;
+}
+div.col-lg-4:nth-child(3) a.btn{
+    width: 167px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    margin-top: 12px;
+    color: #deedfe;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+div.col-lg-4:nth-child(3) a.btn:hover{
+    background-color: #fff;
+    transition: all 0.2s;
+}
+
+@media (max-width: 1200px) {
+    .pretitle{
+        margin-top: 60px;
+    }  
+}
+@media (max-width: 992px) {
+    [src="img/title_image.png"]{
+        display: none;
+    }
+    .pretitle{
+        margin-top: 10px;
+    }
+    header div.row{
+        padding-top: 5px;
+    }
+    .col-lg-5 h1{
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 21px;
+        line-height: 52px;
+    }
+    div.gallery{
+        padding: 28px 20px;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    footer div.col-lg-4:first-child{
+        text-align: center;
+    }
+}
