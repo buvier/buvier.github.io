@@ -13,9 +13,8 @@ a.btn{
     text-decoration: none;
 }
 header{
-    background-color: #3a7dfd;
-    background-image: linear-gradient (-147deg, #3a7dfd 0%, #1157db 100%);
-    background-image: -o-linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
+    /*background-color: #3a7dfd;*/
+    background-image: linear-gradient(-147deg, #3a7dfd 0%, #093ea0 100%);
     color: #fff;
     /*padding-top: 54px;*/
     padding-bottom: 17px;
