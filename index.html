@@ -18,22 +18,24 @@
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="animate_css/animate.css">
+		<script src="js/wow.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
 </head>
 
 <body>
- <!-- Тут будет модержимое будущего сайта -->
+ <!-- Тут будет содержимое будущего сайта -->
 	<header>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img  src="img/title_image.png" alt="картинка заголовка">
+					<img class="wow fadeInDown" data-wow-delay="0.3s" src="img/title_image.png" alt="картинка заголовка">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-lg-5">
-					<p class="pretitle">Веб-разработчик</p>
-					<h1>Elijah I. Zabrodin</h1>
-					<p class="main_description">Верстка на HTML/CSS<br>
+					<p class="pretitle wow fadeInRightBig" data-wow-duration="0.3s">Веб-разработчик</p>
+					<h1 class="wow fadeInLeftBig" data-wow-duration="0.6s">Elijah I. Zabrodin</h1>
+					<p class="main_description wow fadeInRightBig" data-wow-duration="0.4s">Верстка на HTML/CSS<br>
 						Разработка сайтов под ключ
 					</p>
 					<div class="button">
@@ -106,6 +108,10 @@
 		</div>
 		<!-- /.container -->
 	</footer>
+
+	<script>
+	new WOW().init();
+	</script>
 
 </body>
 </html>
