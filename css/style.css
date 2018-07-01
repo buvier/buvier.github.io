@@ -171,6 +171,7 @@ div.col-lg-4:nth-child(3) a.btn{
 }
 div.col-lg-4:nth-child(3) a.btn:hover{
     background-color: #fff;
+    color: #072b6f;
     transition: all 0.2s;
 }
 
